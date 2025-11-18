@@ -12,7 +12,7 @@ venv/
 *.tmp
 └── data/
     └── API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_216039.zip # raw download
-├── worldbank_gdp.csv       # cleaned output
+├── worldbank_gdp.csv       
 └── scripts/
     └── preprocess_gdp.py
 
