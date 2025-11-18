@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
+#import plotly.io as pio
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Nigeria CO₂ Emissions Analysis", page_icon="🌍", layout="wide")
 
@@ -124,6 +124,10 @@ fig3 = px.scatter(
     title="GDP vs CO₂ emissions per capita"
 )
 st.plotly_chart(fig3, use_container_width=True)
+
+# --- Save chart as PNG ---
+#pio.write_image(fig3, "assets/gdp_vs_co2.png", format="png", width=1000, height=600, scale=2)
+
 # --- INSIGHTS ---
 st.header("💡 Insights")
 st.markdown("""
