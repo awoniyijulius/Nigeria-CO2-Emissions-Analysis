@@ -10,3 +10,11 @@ Nigeria-CO2-Emissions-Analysis/
 ├── worldbank_gdp.csv       # cleaned output
 └── scripts/
     └── preprocess_gdp.py
+# Ignore virtual environments
+myenv/
+venv/
+.env/
+
+# Ignore system files
+*.log
+*.tmp
