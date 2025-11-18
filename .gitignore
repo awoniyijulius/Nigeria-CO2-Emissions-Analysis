@@ -1,0 +1,12 @@
+Nigeria-CO2-Emissions-Analysis/
+│
+├── app.py
+├── style.css
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── data/
+    └── API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_216039.zip # raw download
+├── worldbank_gdp.csv       # cleaned output
+└── scripts/
+    └── preprocess_gdp.py

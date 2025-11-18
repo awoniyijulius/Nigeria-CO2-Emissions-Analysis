@@ -1,0 +1,25 @@
+/* Forest green for titles/subtitles */
+h1, h2, h3 {
+  color: #228B22; /* ForestGreen */
+}
+
+/* Blended blue for main text */
+body, .main .block-container {
+  color: #1E90FF; /* DodgerBlue */
+}
+
+/* Background forest image */
+.stApp {
+  background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main .block-container {
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
